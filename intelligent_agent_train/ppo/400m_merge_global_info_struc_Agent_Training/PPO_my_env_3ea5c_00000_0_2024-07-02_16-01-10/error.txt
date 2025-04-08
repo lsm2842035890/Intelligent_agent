@@ -1,0 +1,71 @@
+Failure # 1 (occurred at 2024-07-02_16-01-16)
+Traceback (most recent call last):
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\trial_runner.py", line 886, in _process_trial
+    results = self.trial_executor.fetch_result(trial)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\ray_trial_executor.py", line 675, in fetch_result
+    result = ray.get(trial_future[0], timeout=DEFAULT_GET_TIMEOUT)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\worker.py", line 1765, in get
+    raise value
+ray.exceptions.RayActorError: The actor died because of an error raised in its creation task, [36mray::PPOTrainer.__init__()[39m (pid=6684, ip=127.0.0.1, repr=PPOTrainer)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 925, in _init
+    raise NotImplementedError
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+[36mray::PPOTrainer.__init__()[39m (pid=6684, ip=127.0.0.1, repr=PPOTrainer)
+  File "python\ray\_raylet.pyx", line 633, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 674, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 640, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 644, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 593, in ray._raylet.execute_task.function_executor
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\function_manager.py", line 648, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 746, in __init__
+    super().__init__(config, logger_creator, remote_checkpoint_dir,
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\trainable.py", line 124, in __init__
+    self.setup(copy.deepcopy(self.config))
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 822, in setup
+    self.workers = self._make_workers(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 1995, in _make_workers
+    return WorkerSet(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\worker_set.py", line 101, in __init__
+    remote_spaces = ray.get(self.remote_workers(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\worker.py", line 1765, in get
+    raise value
+ray.exceptions.RayActorError: The actor died because of an error raised in its creation task, [36mray::RolloutWorker.__init__()[39m (pid=18228, ip=127.0.0.1, repr=<ray.rllib.evaluation.rollout_worker.RolloutWorker object at 0x00000187361E79D0>)
+  File "python\ray\_raylet.pyx", line 640, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 644, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 593, in ray._raylet.execute_task.function_executor
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\function_manager.py", line 648, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\rollout_worker.py", line 586, in __init__
+    self._build_policy_map(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\rollout_worker.py", line 1577, in _build_policy_map
+    self.policy_map.create_policy(name, orig_cls, obs_space, act_space,
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\policy\policy_map.py", line 143, in create_policy
+    self[policy_id] = class_(observation_space, action_space,
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\ppo\ppo_torch_policy.py", line 32, in __init__
+    TorchPolicy.__init__(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\policy\torch_policy.py", line 135, in __init__
+    dist_class, logit_dim = ModelCatalog.get_action_dist(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\models\catalog.py", line 255, in get_action_dist
+    raise UnsupportedSpaceException(
+ray.rllib.utils.error.UnsupportedSpaceException: Action space has multiple dimensions (6, 4). Consider reshaping this into a single dimension, using a custom action distribution, using a Tuple action space, or the multi-agent API.
+

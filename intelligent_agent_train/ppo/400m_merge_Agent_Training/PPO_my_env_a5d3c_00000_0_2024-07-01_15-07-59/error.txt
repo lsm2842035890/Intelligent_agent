@@ -1,0 +1,32 @@
+Failure # 1 (occurred at 2024-07-01_15-08-02)
+Traceback (most recent call last):
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\trial_runner.py", line 886, in _process_trial
+    results = self.trial_executor.fetch_result(trial)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\ray_trial_executor.py", line 675, in fetch_result
+    result = ray.get(trial_future[0], timeout=DEFAULT_GET_TIMEOUT)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\worker.py", line 1765, in get
+    raise value
+ray.exceptions.RayActorError: The actor died because of an error raised in its creation task, [36mray::PPOTrainer.__init__()[39m (pid=14168, ip=127.0.0.1, repr=PPOTrainer)
+  File "python\ray\_raylet.pyx", line 640, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 644, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 593, in ray._raylet.execute_task.function_executor
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\function_manager.py", line 648, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 746, in __init__
+    super().__init__(config, logger_creator, remote_checkpoint_dir,
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\trainable.py", line 124, in __init__
+    self.setup(copy.deepcopy(self.config))
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 759, in setup
+    self.config = self.merge_trainer_configs(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 2077, in merge_trainer_configs
+    return deep_update(config1, config2, _allow_unknown_configs,
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\ml_utils\dict.py", line 51, in deep_update
+    raise Exception("Unknown config parameter `{}` ".format(k))
+Exception: Unknown config parameter `use_lstm`
+

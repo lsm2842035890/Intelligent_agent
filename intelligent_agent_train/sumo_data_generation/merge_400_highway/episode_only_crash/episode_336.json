@@ -1,0 +1,4607 @@
+{
+    "bv0": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv0",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    53.99999999999999,
+                    -1.6
+                ],
+                "position3D": [
+                    53.99999999999999,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 25.118309173391996,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv1",
+                "distance": 60.0,
+                "velocity": 24.58615429338384,
+                "position": [
+                    119.00000000000001,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    119.00000000000001,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 77.0,
+                "velocity": 38.338854117174265,
+                "position": [
+                    136.0,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    136.0,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv0",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 1.5480496382273028
+                },
+                "position": [
+                    56.52731141372147,
+                    -1.6
+                ],
+                "position3D": [
+                    56.52731141372147,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 25.273114137214726,
+                "road_id": "E0",
+                "acceleration": 1.5480496382273046
+            },
+            "Lead": {
+                "veh_id": "bv1",
+                "distance": 59.91068386633115,
+                "velocity": 24.379952800526212,
+                "position": [
+                    121.43799528005262,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    121.43799528005262,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -2.062014928576268
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 78.27391312556767,
+                "velocity": 38.01224539289146,
+                "position": [
+                    139.80122453928914,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    139.80122453928914,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.266087242828064
+            },
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv0",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.542425201630052
+                },
+                "position": [
+                    59.02919857542664,
+                    -1.6
+                ],
+                "position3D": [
+                    59.02919857542664,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 25.018871617051722,
+                "road_id": "E0",
+                "acceleration": -2.5424252016300386
+            },
+            "Lead": {
+                "veh_id": "bv1",
+                "distance": 59.81805614154391,
+                "velocity": 24.09259436917931,
+                "position": [
+                    123.84725471697057,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    123.84725471697057,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -2.873584313469024
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 79.53979336593756,
+                "velocity": 37.677674020750736,
+                "position": [
+                    143.5689919413642,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    143.5689919413642,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.345713721407222
+            },
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv0",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.325106009667949
+                },
+                "position": [
+                    61.49783467703514,
+                    -1.6
+                ],
+                "position3D": [
+                    61.49783467703514,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 24.686361016084927,
+                "road_id": "E0",
+                "acceleration": -3.325106009667955
+            },
+            "Lead": {
+                "veh_id": "bv1",
+                "distance": 59.750094588033996,
+                "velocity": 24.006745480985842,
+                "position": [
+                    126.24792926506912,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    126.24792926506912,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.8584888819346759
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 80.85534909138812,
+                "velocity": 37.841918270590746,
+                "position": [
+                    147.35318376842326,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    147.35318376842326,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 1.6424424984001007
+            },
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        }
+    },
+    "bv1": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv1",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    119.00000000000001,
+                    -1.6
+                ],
+                "position3D": [
+                    119.00000000000001,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 24.58615429338384,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv3",
+                "distance": 28.0,
+                "velocity": 37.3047499577376,
+                "position": [
+                    152.0,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    152.0,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 12.0,
+                "velocity": 38.338854117174265,
+                "position": [
+                    136.0,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    136.0,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "Foll": {
+                "veh_id": "bv0",
+                "distance": 60.0,
+                "velocity": 25.118309173391996,
+                "position": [
+                    53.99999999999999,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    53.99999999999999,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv1",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.0620149285762515
+                },
+                "position": [
+                    121.43799528005262,
+                    -1.6
+                ],
+                "position3D": [
+                    121.43799528005262,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 24.379952800526212,
+                "road_id": "E0",
+                "acceleration": -2.062014928576268
+            },
+            "Lead": {
+                "veh_id": "bv3",
+                "distance": 29.2895174798321,
+                "velocity": 37.27512759884721,
+                "position": [
+                    155.72751275988472,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    155.72751275988472,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.2962235889038567
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 13.363229259236519,
+                "velocity": 38.01224539289146,
+                "position": [
+                    139.80122453928914,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    139.80122453928914,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.266087242828064
+            },
+            "Foll": {
+                "veh_id": "bv0",
+                "distance": 59.91068386633114,
+                "velocity": 25.273114137214726,
+                "position": [
+                    56.52731141372147,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    56.52731141372147,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.5480496382273046
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv1",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.873584313469032
+                },
+                "position": [
+                    123.84725471697057,
+                    -1.6
+                ],
+                "position3D": [
+                    123.84725471697057,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 24.09259436917931,
+                "road_id": "E0",
+                "acceleration": -2.873584313469024
+            },
+            "Lead": {
+                "veh_id": "bv3",
+                "distance": 30.624947672946575,
+                "velocity": 37.44689630032412,
+                "position": [
+                    159.47220238991713,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    159.47220238991713,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.7176870147690693
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 14.72173722439365,
+                "velocity": 37.677674020750736,
+                "position": [
+                    143.5689919413642,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    143.5689919413642,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.345713721407222
+            },
+            "Foll": {
+                "veh_id": "bv0",
+                "distance": 59.818056141543906,
+                "velocity": 25.018871617051722,
+                "position": [
+                    59.02919857542664,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    59.02919857542664,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -2.5424252016300386
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv1",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.8584888819346723
+                },
+                "position": [
+                    126.24792926506912,
+                    -1.6
+                ],
+                "position3D": [
+                    126.24792926506912,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 24.006745480985842,
+                "road_id": "E0",
+                "acceleration": -0.8584888819346759
+            },
+            "Lead": {
+                "veh_id": "bv3",
+                "distance": 31.937326013633196,
+                "velocity": 37.13052888785205,
+                "position": [
+                    163.18525527870233,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    163.18525527870233,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.1636741247206857
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv2",
+                "distance": 16.105254503354132,
+                "velocity": 37.841918270590746,
+                "position": [
+                    147.35318376842326,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    147.35318376842326,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 1.6424424984001007
+            },
+            "Foll": {
+                "veh_id": "bv0",
+                "distance": 59.75009458803399,
+                "velocity": 24.686361016084927,
+                "position": [
+                    61.49783467703514,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    61.49783467703514,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.325106009667955
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        }
+    },
+    "bv2": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv2",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    136.0,
+                    -4.8
+                ],
+                "position3D": [
+                    136.0,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 38.338854117174265,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv7",
+                "distance": 76.0,
+                "velocity": 25.809784883750638,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": {
+                "veh_id": "bv3",
+                "distance": 11.0,
+                "velocity": 37.3047499577376,
+                "position": [
+                    152.0,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    152.0,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": {
+                "veh_id": "bv1",
+                "distance": 12.0,
+                "velocity": 24.58615429338384,
+                "position": [
+                    119.00000000000001,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    119.00000000000001,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv2",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.266087242828058
+                },
+                "position": [
+                    139.80122453928914,
+                    -4.8
+                ],
+                "position3D": [
+                    139.80122453928914,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 38.01224539289146,
+                "road_id": "E0",
+                "acceleration": -3.266087242828064
+            },
+            "Lead": {
+                "veh_id": "bv6",
+                "distance": 50.36853582298566,
+                "velocity": 22.09760362274814,
+                "position": [
+                    195.1741461280502,
+                    -4.898155080278752
+                ],
+                "heading": 83.46810544695427,
+                "lane_index": 0,
+                "position3D": [
+                    195.1741461280502,
+                    -4.898155080278752,
+                    0.0
+                ],
+                "acceleration": 0.7490029223157535
+            },
+            "LeftLead": {
+                "veh_id": "bv3",
+                "distance": 10.92628822059558,
+                "velocity": 37.27512759884721,
+                "position": [
+                    155.72751275988472,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    155.72751275988472,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.2962235889038567
+            },
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": {
+                "veh_id": "bv1",
+                "distance": 13.363229259236519,
+                "velocity": 24.379952800526212,
+                "position": [
+                    121.43799528005262,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    121.43799528005262,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -2.062014928576268
+            },
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv2",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.345713721407218
+                },
+                "position": [
+                    143.5689919413642,
+                    -4.8
+                ],
+                "position3D": [
+                    143.5689919413642,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 37.677674020750736,
+                "road_id": "E0",
+                "acceleration": -3.345713721407222
+            },
+            "Lead": {
+                "veh_id": "bv6",
+                "distance": 48.792013585262254,
+                "velocity": 21.912451643516626,
+                "position": [
+                    197.36100552662646,
+                    -4.8
+                ],
+                "heading": 86.12285964044959,
+                "lane_index": 0,
+                "position3D": [
+                    197.36100552662646,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.8515197923151305
+            },
+            "LeftLead": {
+                "veh_id": "bv3",
+                "distance": 10.903210448552926,
+                "velocity": 37.44689630032412,
+                "position": [
+                    159.47220238991713,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    159.47220238991713,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.7176870147690693
+            },
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": {
+                "veh_id": "bv1",
+                "distance": 14.72173722439365,
+                "velocity": 24.09259436917931,
+                "position": [
+                    123.84725471697057,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    123.84725471697057,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -2.873584313469024
+            },
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv2",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 1.6424424984000936
+                },
+                "position": [
+                    147.35318376842326,
+                    -4.8
+                ],
+                "position3D": [
+                    147.35318376842326,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 37.841918270590746,
+                "road_id": "E0",
+                "acceleration": 1.6424424984001007
+            },
+            "Lead": {
+                "veh_id": "bv6",
+                "distance": 47.19318858068033,
+                "velocity": 21.853668224771322,
+                "position": [
+                    199.5463723491036,
+                    -4.8
+                ],
+                "heading": 88.26382149113002,
+                "lane_index": 0,
+                "position3D": [
+                    199.5463723491036,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.5878341874530335
+            },
+            "LeftLead": {
+                "veh_id": "bv3",
+                "distance": 10.832071510279064,
+                "velocity": 37.13052888785205,
+                "position": [
+                    163.18525527870233,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    163.18525527870233,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.1636741247206857
+            },
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": {
+                "veh_id": "bv1",
+                "distance": 16.105254503354132,
+                "velocity": 24.006745480985842,
+                "position": [
+                    126.24792926506912,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    126.24792926506912,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.8584888819346759
+            },
+            "RightFoll": null
+        }
+    },
+    "bv3": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv3",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    152.0,
+                    -1.6
+                ],
+                "position3D": [
+                    152.0,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.3047499577376,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv7",
+                "distance": 60.0,
+                "velocity": 25.809784883750638,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "Foll": {
+                "veh_id": "bv1",
+                "distance": 28.0,
+                "velocity": 24.58615429338384,
+                "position": [
+                    119.00000000000001,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    119.00000000000001,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv2",
+                "distance": 11.0,
+                "velocity": 38.338854117174265,
+                "position": [
+                    136.0,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    136.0,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            }
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv3",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.2962235889038731
+                },
+                "position": [
+                    155.72751275988472,
+                    -1.6
+                ],
+                "position3D": [
+                    155.72751275988472,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.27512759884721,
+                "road_id": "E0",
+                "acceleration": -0.2962235889038567
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv6",
+                "distance": 34.44224760239008,
+                "velocity": 22.09760362274814,
+                "position": [
+                    195.1741461280502,
+                    -4.898155080278752
+                ],
+                "heading": 83.46810544695427,
+                "lane_index": 0,
+                "position3D": [
+                    195.1741461280502,
+                    -4.898155080278752,
+                    0.0
+                ],
+                "acceleration": 0.7490029223157535
+            },
+            "Foll": {
+                "veh_id": "bv1",
+                "distance": 29.2895174798321,
+                "velocity": 24.379952800526212,
+                "position": [
+                    121.43799528005262,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    121.43799528005262,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -2.062014928576268
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv2",
+                "distance": 10.92628822059558,
+                "velocity": 38.01224539289146,
+                "position": [
+                    139.80122453928914,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    139.80122453928914,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.266087242828064
+            }
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv3",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 1.717687014769071
+                },
+                "position": [
+                    159.47220238991713,
+                    -1.6
+                ],
+                "position3D": [
+                    159.47220238991713,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.44689630032412,
+                "road_id": "E0",
+                "acceleration": 1.7176870147690693
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv6",
+                "distance": 32.888803136709335,
+                "velocity": 21.912451643516626,
+                "position": [
+                    197.36100552662646,
+                    -4.8
+                ],
+                "heading": 86.12285964044959,
+                "lane_index": 0,
+                "position3D": [
+                    197.36100552662646,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.8515197923151305
+            },
+            "Foll": {
+                "veh_id": "bv1",
+                "distance": 30.624947672946575,
+                "velocity": 24.09259436917931,
+                "position": [
+                    123.84725471697057,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    123.84725471697057,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -2.873584313469024
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv2",
+                "distance": 10.903210448552926,
+                "velocity": 37.677674020750736,
+                "position": [
+                    143.5689919413642,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    143.5689919413642,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.345713721407222
+            }
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv3",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.163674124720679
+                },
+                "position": [
+                    163.18525527870233,
+                    -1.6
+                ],
+                "position3D": [
+                    163.18525527870233,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.13052888785205,
+                "road_id": "E0",
+                "acceleration": -3.1636741247206857
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv6",
+                "distance": 31.361117070401267,
+                "velocity": 21.853668224771322,
+                "position": [
+                    199.5463723491036,
+                    -4.8
+                ],
+                "heading": 88.26382149113002,
+                "lane_index": 0,
+                "position3D": [
+                    199.5463723491036,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.5878341874530335
+            },
+            "Foll": {
+                "veh_id": "bv1",
+                "distance": 31.937326013633196,
+                "velocity": 24.006745480985842,
+                "position": [
+                    126.24792926506912,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    126.24792926506912,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.8584888819346759
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv2",
+                "distance": 10.832071510279064,
+                "velocity": 37.841918270590746,
+                "position": [
+                    147.35318376842326,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    147.35318376842326,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 1.6424424984001007
+            }
+        }
+    },
+    "bv4": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv4",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466518,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    149.94682013124577,
+                    -21.05747429339121
+                ],
+                "position3D": [
+                    149.94682013124577,
+                    -21.05747429339121,
+                    0.0
+                ],
+                "velocity": 34.94098297464656,
+                "road_id": "E2",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "CAV",
+                "distance": 4.0,
+                "velocity": 20.31965039108111,
+                "position": [
+                    158.34179765411048,
+                    -17.812861055133567
+                ],
+                "heading": 68.86875354466538,
+                "lane_index": 0,
+                "position3D": [
+                    158.34179765411048,
+                    -17.812861055133567,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv4",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466525,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -1.1261218792355314
+                },
+                "position": [
+                    153.19552446360728,
+                    -19.801867705374022
+                ],
+                "position3D": [
+                    153.19552446360728,
+                    -19.801867705374022,
+                    0.0
+                ],
+                "velocity": 34.828370786723006,
+                "road_id": "E2",
+                "acceleration": -1.1261218792355265
+            },
+            "Lead": {
+                "veh_id": "CAV",
+                "distance": 2.5459314565249827,
+                "velocity": 20.287685351973,
+                "position": [
+                    160.23418279323008,
+                    -17.081464472171156
+                ],
+                "heading": 68.86875354466534,
+                "lane_index": 0,
+                "position3D": [
+                    160.23418279323008,
+                    -17.081464472171156,
+                    0.0
+                ],
+                "acceleration": -0.3196503910811188
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv4",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466518,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.346005076170078
+                },
+                "position": [
+                    156.4130180877401,
+                    -18.558323886651735
+                ],
+                "position3D": [
+                    156.4130180877401,
+                    -18.558323886651735,
+                    0.0
+                ],
+                "velocity": 34.493770279106,
+                "road_id": "E2",
+                "acceleration": -3.3460050761700444
+            },
+            "Lead": {
+                "veh_id": "CAV",
+                "distance": 1.1224461102919463,
+                "velocity": 20.2589168167757,
+                "position": [
+                    162.12388447450135,
+                    -16.351105031099266
+                ],
+                "heading": 68.86875354466522,
+                "lane_index": 0,
+                "position3D": [
+                    162.12388447450135,
+                    -16.351105031099266,
+                    0.0
+                ],
+                "acceleration": -0.2876853519730105
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv4",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466538,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 1.369142080893563
+                },
+                "position": [
+                    159.6432827307559,
+                    -17.309844138461997
+                ],
+                "position3D": [
+                    159.6432827307559,
+                    -17.309844138461997,
+                    0.0
+                ],
+                "velocity": 34.63068448719536,
+                "road_id": "E2",
+                "acceleration": 1.3691420808935817
+            },
+            "Lead": {
+                "veh_id": "CAV",
+                "distance": -0.3072628504461363,
+                "velocity": 20.333594879814342,
+                "position": [
+                    164.02055194089112,
+                    -15.618053351894666
+                ],
+                "heading": 68.86875354466518,
+                "lane_index": 0,
+                "position3D": [
+                    164.02055194089112,
+                    -15.618053351894666,
+                    0.0
+                ],
+                "acceleration": 0.7467806303864322
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": null
+        }
+    },
+    "CAV": {
+        "0": {
+            "Ego": {
+                "veh_id": "CAV",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466538,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    158.34179765411048,
+                    -17.812861055133567
+                ],
+                "position3D": [
+                    158.34179765411048,
+                    -17.812861055133567,
+                    0.0
+                ],
+                "velocity": 20.31965039108111,
+                "road_id": "E2",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv6",
+                "distance": 32.0,
+                "velocity": 22.022703330516563,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv4",
+                "distance": 4.0,
+                "velocity": 34.94098297464656,
+                "position": [
+                    149.94682013124577,
+                    -21.05747429339121
+                ],
+                "heading": 68.86875354466518,
+                "lane_index": 0,
+                "position3D": [
+                    149.94682013124577,
+                    -21.05747429339121,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "CAV",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466534,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.7695438188680033
+                },
+                "position": [
+                    160.23418279323008,
+                    -17.081464472171156
+                ],
+                "position3D": [
+                    160.23418279323008,
+                    -17.081464472171156,
+                    0.0
+                ],
+                "velocity": 20.287685351973,
+                "road_id": "E2",
+                "acceleration": -0.3196503910811188
+            },
+            "Lead": {
+                "veh_id": "bv6",
+                "distance": 32.18099182707752,
+                "velocity": 22.09760362274814,
+                "position": [
+                    195.1741461280502,
+                    -4.898155080278752
+                ],
+                "heading": 83.46810544695427,
+                "lane_index": 0,
+                "position3D": [
+                    195.1741461280502,
+                    -4.898155080278752,
+                    0.0
+                ],
+                "acceleration": 0.7490029223157535
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv4",
+                "distance": 2.5459314565249827,
+                "velocity": 34.828370786723006,
+                "position": [
+                    153.19552446360728,
+                    -19.801867705374022
+                ],
+                "heading": 68.86875354466525,
+                "lane_index": 0,
+                "position3D": [
+                    153.19552446360728,
+                    -19.801867705374022,
+                    0.0
+                ],
+                "acceleration": -1.1261218792355265
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "CAV",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466522,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.3471512762619797
+                },
+                "position": [
+                    162.12388447450135,
+                    -16.351105031099266
+                ],
+                "position3D": [
+                    162.12388447450135,
+                    -16.351105031099266,
+                    0.0
+                ],
+                "velocity": 20.2589168167757,
+                "road_id": "E2",
+                "acceleration": -0.2876853519730105
+            },
+            "Lead": {
+                "veh_id": "bv6",
+                "distance": 32.34634530975162,
+                "velocity": 21.912451643516626,
+                "position": [
+                    197.36100552662646,
+                    -4.8
+                ],
+                "heading": 86.12285964044959,
+                "lane_index": 0,
+                "position3D": [
+                    197.36100552662646,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.8515197923151305
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv4",
+                "distance": 1.1224461102919463,
+                "velocity": 34.493770279106,
+                "position": [
+                    156.4130180877401,
+                    -18.558323886651735
+                ],
+                "heading": 68.86875354466518,
+                "lane_index": 0,
+                "position3D": [
+                    156.4130180877401,
+                    -18.558323886651735,
+                    0.0
+                ],
+                "acceleration": -3.3460050761700444
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "CAV",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466518,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 0.7467806303864215
+                },
+                "position": [
+                    164.02055194089112,
+                    -15.618053351894666
+                ],
+                "position3D": [
+                    164.02055194089112,
+                    -15.618053351894666,
+                    0.0
+                ],
+                "velocity": 20.333594879814342,
+                "road_id": "E2",
+                "acceleration": 0.7467806303864322
+            },
+            "Lead": {
+                "veh_id": "bv6",
+                "distance": 32.498352644247305,
+                "velocity": 21.853668224771322,
+                "position": [
+                    199.5463723491036,
+                    -4.8
+                ],
+                "heading": 88.26382149113002,
+                "lane_index": 0,
+                "position3D": [
+                    199.5463723491036,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.5878341874530335
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv4",
+                "distance": -0.3072628504461363,
+                "velocity": 34.63068448719536,
+                "position": [
+                    159.6432827307559,
+                    -17.309844138461997
+                ],
+                "heading": 68.86875354466538,
+                "lane_index": 0,
+                "position3D": [
+                    159.6432827307559,
+                    -17.309844138461997,
+                    0.0
+                ],
+                "acceleration": 1.3691420808935817
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        }
+    },
+    "bv6": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv6",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "velocity": 22.022703330516563,
+                "road_id": "E2",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv8",
+                "distance": 45.0,
+                "velocity": 24.395333059658697,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "CAV",
+                "distance": 32.0,
+                "velocity": 20.31965039108111,
+                "position": [
+                    158.34179765411048,
+                    -17.812861055133567
+                ],
+                "heading": 68.86875354466538,
+                "lane_index": 0,
+                "position3D": [
+                    158.34179765411048,
+                    -17.812861055133567,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv6",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 83.46810544695427,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 0.7490029223157428
+                },
+                "position": [
+                    195.1741461280502,
+                    -4.898155080278752
+                ],
+                "position3D": [
+                    195.1741461280502,
+                    -4.898155080278752,
+                    0.0
+                ],
+                "velocity": 22.09760362274814,
+                "road_id": ":J1_0",
+                "acceleration": 0.7490029223157535
+            },
+            "Lead": {
+                "veh_id": "bv7",
+                "distance": 19.402021550344084,
+                "velocity": 25.717819126188754,
+                "position": [
+                    219.5717819126189,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    219.5717819126189,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.9196575756188352
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "CAV",
+                "distance": 32.18099182707752,
+                "velocity": 20.287685351973,
+                "position": [
+                    160.23418279323008,
+                    -17.081464472171156
+                ],
+                "heading": 68.86875354466534,
+                "lane_index": 0,
+                "position3D": [
+                    160.23418279323008,
+                    -17.081464472171156,
+                    0.0
+                ],
+                "acceleration": -0.3196503910811188
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv6",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 86.12285964044959,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -1.851519792315127
+                },
+                "position": [
+                    197.36100552662646,
+                    -4.8
+                ],
+                "position3D": [
+                    197.36100552662646,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 21.912451643516626,
+                "road_id": "E1",
+                "acceleration": -1.8515197923151305
+            },
+            "Lead": {
+                "veh_id": "bv7",
+                "distance": 19.7485161005682,
+                "velocity": 25.377397145757776,
+                "position": [
+                    222.10952162719465,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    222.10952162719465,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.4042198043097827
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv2",
+                "distance": 48.79201358526226,
+                "velocity": 37.677674020750736,
+                "position": [
+                    143.5689919413642,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    143.5689919413642,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.345713721407222
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 32.888803136709335,
+                "velocity": 37.44689630032412,
+                "position": [
+                    159.47220238991713,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    159.47220238991713,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.7176870147690693
+            },
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv6",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 88.26382149113002,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.5878341874530433
+                },
+                "position": [
+                    199.5463723491036,
+                    -4.8
+                ],
+                "position3D": [
+                    199.5463723491036,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 21.853668224771322,
+                "road_id": "E1",
+                "acceleration": -0.5878341874530335
+            },
+            "Lead": {
+                "veh_id": "bv7",
+                "distance": 20.063299266243842,
+                "velocity": 25.001499881527756,
+                "position": [
+                    224.60967161534745,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    224.60967161534745,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.7589726423001935
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv2",
+                "distance": 47.193188580680335,
+                "velocity": 37.841918270590746,
+                "position": [
+                    147.35318376842326,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    147.35318376842326,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 1.6424424984001007
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 31.361117070401267,
+                "velocity": 37.13052888785205,
+                "position": [
+                    163.18525527870233,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    163.18525527870233,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.1636741247206857
+            },
+            "RightFoll": null
+        }
+    },
+    "bv7": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv7",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 25.809784883750638,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv9",
+                "distance": 75.0,
+                "velocity": 29.165470965384856,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 96.0,
+                "velocity": 37.54159082961001,
+                "position": [
+                    179.44,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    179.44,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv2",
+                "distance": 76.0,
+                "velocity": 38.338854117174265,
+                "position": [
+                    136.0,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    136.0,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 60.0,
+                "velocity": 37.3047499577376,
+                "position": [
+                    152.0,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    152.0,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv7",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.9196575756188521
+                },
+                "position": [
+                    219.5717819126189,
+                    -4.8
+                ],
+                "position3D": [
+                    219.5717819126189,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 25.717819126188754,
+                "road_id": "E1",
+                "acceleration": -0.9196575756188352
+            },
+            "Lead": {
+                "veh_id": "bv8",
+                "distance": 20.79866179624064,
+                "velocity": 24.104437088595283,
+                "position": [
+                    245.3704437088595,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    245.3704437088595,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.908959710634136
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 97.17884992670028,
+                "velocity": 37.50631839319169,
+                "position": [
+                    321.75063183931917,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    321.75063183931917,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.35272436418317454
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv6",
+                "distance": 19.402021550344084,
+                "velocity": 22.09760362274814,
+                "position": [
+                    195.1741461280502,
+                    -4.898155080278752
+                ],
+                "heading": 83.46810544695427,
+                "lane_index": 0,
+                "position3D": [
+                    195.1741461280502,
+                    -4.898155080278752,
+                    0.0
+                ],
+                "acceleration": 0.7490029223157535
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 58.84426915273417,
+                "velocity": 37.27512759884721,
+                "position": [
+                    155.72751275988472,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    155.72751275988472,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.2962235889038567
+            },
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv7",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.4042198043097684
+                },
+                "position": [
+                    222.10952162719465,
+                    -4.8
+                ],
+                "position3D": [
+                    222.10952162719465,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 25.377397145757776,
+                "road_id": "E1",
+                "acceleration": -3.4042198043097827
+            },
+            "Lead": {
+                "veh_id": "bv8",
+                "distance": 20.6449792071729,
+                "velocity": 23.840571255080334,
+                "position": [
+                    247.75450083436755,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    247.75450083436755,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.6386583351494863
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 98.35322275007242,
+                "velocity": 37.12112537947931,
+                "position": [
+                    325.4627443772671,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    325.4627443772671,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.8519301371238157
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv6",
+                "distance": 19.7485161005682,
+                "velocity": 21.912451643516626,
+                "position": [
+                    197.36100552662646,
+                    -4.8
+                ],
+                "heading": 86.12285964044959,
+                "lane_index": 0,
+                "position3D": [
+                    197.36100552662646,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.8515197923151305
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 57.63731923727754,
+                "velocity": 37.44689630032412,
+                "position": [
+                    159.47220238991713,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    159.47220238991713,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.7176870147690693
+            },
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv7",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.758972642300205
+                },
+                "position": [
+                    224.60967161534745,
+                    -4.8
+                ],
+                "position3D": [
+                    224.60967161534745,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 25.001499881527756,
+                "road_id": "E1",
+                "acceleration": -3.7589726423001935
+            },
+            "Lead": {
+                "veh_id": "bv8",
+                "distance": 20.54605667981187,
+                "velocity": 24.012274607917448,
+                "position": [
+                    250.1557282951593,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    250.1557282951593,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 1.7170335283711324
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 99.58442340509391,
+                "velocity": 37.313506431742624,
+                "position": [
+                    329.19409502044135,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    329.19409502044135,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.923810522633147
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv6",
+                "distance": 20.063299266243842,
+                "velocity": 21.853668224771322,
+                "position": [
+                    199.5463723491036,
+                    -4.8
+                ],
+                "heading": 88.26382149113002,
+                "lane_index": 0,
+                "position3D": [
+                    199.5463723491036,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.5878341874530335
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 56.42441633664511,
+                "velocity": 37.13052888785205,
+                "position": [
+                    163.18525527870233,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    163.18525527870233,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.1636741247206857
+            },
+            "RightFoll": null
+        }
+    },
+    "bv8": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv8",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "velocity": 24.395333059658697,
+                "road_id": "E2",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv10",
+                "distance": 48.0,
+                "velocity": 35.246635706262495,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv6",
+                "distance": 45.0,
+                "velocity": 22.022703330516563,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv8",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.9089597106341327
+                },
+                "position": [
+                    245.3704437088595,
+                    -4.8
+                ],
+                "position3D": [
+                    245.3704437088595,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 24.104437088595283,
+                "road_id": "E1",
+                "acceleration": -2.908959710634136
+            },
+            "Lead": {
+                "veh_id": "bv10",
+                "distance": 49.08427835065726,
+                "velocity": 34.94722059516765,
+                "position": [
+                    299.45472205951677,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    299.45472205951677,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.994151110948451
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 71.38018813045964,
+                "velocity": 37.50631839319169,
+                "position": [
+                    321.75063183931917,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    321.75063183931917,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.35272436418317454
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv7",
+                "distance": 20.79866179624064,
+                "velocity": 25.717819126188754,
+                "position": [
+                    219.5717819126189,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    219.5717819126189,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.9196575756188352
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 84.64293094897481,
+                "velocity": 37.27512759884721,
+                "position": [
+                    155.72751275988472,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    155.72751275988472,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.2962235889038567
+            },
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv8",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.6386583351495037
+                },
+                "position": [
+                    247.75450083436755,
+                    -4.8
+                ],
+                "position3D": [
+                    247.75450083436755,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 23.840571255080334,
+                "road_id": "E1",
+                "acceleration": -2.6386583351494863
+            },
+            "Lead": {
+                "veh_id": "bv9",
+                "distance": 50.00384889712775,
+                "velocity": 28.627056240290713,
+                "position": [
+                    302.75834973149534,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    302.75834973149534,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.293848343718473
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 72.70824354289952,
+                "velocity": 37.12112537947931,
+                "position": [
+                    325.4627443772671,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    325.4627443772671,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.8519301371238157
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv7",
+                "distance": 20.6449792071729,
+                "velocity": 25.377397145757776,
+                "position": [
+                    222.10952162719465,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    222.10952162719465,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.4042198043097827
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 83.28229844445043,
+                "velocity": 37.44689630032412,
+                "position": [
+                    159.47220238991713,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    159.47220238991713,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.7176870147690693
+            },
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv8",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 1.7170335283711422
+                },
+                "position": [
+                    250.1557282951593,
+                    -4.8
+                ],
+                "position3D": [
+                    250.1557282951593,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 24.012274607917448,
+                "road_id": "E1",
+                "acceleration": 1.7170335283711324
+            },
+            "Lead": {
+                "veh_id": "bv9",
+                "distance": 50.44487652381122,
+                "velocity": 28.422550874752144,
+                "position": [
+                    305.6006048189705,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    305.6006048189705,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.0450536553856935
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 74.03836672528205,
+                "velocity": 37.313506431742624,
+                "position": [
+                    329.19409502044135,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    329.19409502044135,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.923810522633147
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv7",
+                "distance": 20.54605667981187,
+                "velocity": 25.001499881527756,
+                "position": [
+                    224.60967161534745,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    224.60967161534745,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.7589726423001935
+            },
+            "LeftFoll": {
+                "veh_id": "bv3",
+                "distance": 81.97047301645698,
+                "velocity": 37.13052888785205,
+                "position": [
+                    163.18525527870233,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    163.18525527870233,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.1636741247206857
+            },
+            "RightFoll": null
+        }
+    },
+    "bv9": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv9",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 29.165470965384856,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": null,
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 16.0,
+                "velocity": 37.54159082961001,
+                "position": [
+                    179.44,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    179.44,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv7",
+                "distance": 75.0,
+                "velocity": 25.809784883750638,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv9",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.0902989072229423
+                },
+                "position": [
+                    299.89564410746624,
+                    -4.8
+                ],
+                "position3D": [
+                    299.89564410746624,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 28.95644107466256,
+                "road_id": "E1",
+                "acceleration": -2.0902989072229516
+            },
+            "Lead": {
+                "veh_id": "bv12",
+                "distance": 20.86049351463663,
+                "velocity": 37.961376221029035,
+                "position": [
+                    325.75613762210287,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    325.75613762210287,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.8990082375406843
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 16.85498773185293,
+                "velocity": 37.50631839319169,
+                "position": [
+                    321.75063183931917,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    321.75063183931917,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.35272436418317454
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv10",
+                "distance": -4.559077952050544,
+                "velocity": 34.94722059516765,
+                "position": [
+                    299.45472205951677,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    299.45472205951677,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.994151110948451
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv9",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.293848343718471
+                },
+                "position": [
+                    302.75834973149534,
+                    -4.8
+                ],
+                "position3D": [
+                    302.75834973149534,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 28.627056240290713,
+                "road_id": "E1",
+                "acceleration": -3.293848343718473
+            },
+            "Lead": {
+                "veh_id": "bv10",
+                "distance": -4.837184531272598,
+                "velocity": 34.664431407059276,
+                "position": [
+                    302.92116520022273,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    302.92116520022273,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.827891881083744
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 17.70439464577177,
+                "velocity": 37.12112537947931,
+                "position": [
+                    325.4627443772671,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    325.4627443772671,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.8519301371238157
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv8",
+                "distance": 50.00384889712775,
+                "velocity": 23.840571255080334,
+                "position": [
+                    247.75450083436755,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    247.75450083436755,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.6386583351494863
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv9",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.0450536553857033
+                },
+                "position": [
+                    305.6006048189705,
+                    -4.8
+                ],
+                "position3D": [
+                    305.6006048189705,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 28.422550874752144,
+                "road_id": "E1",
+                "acceleration": -2.0450536553856935
+            },
+            "Lead": {
+                "veh_id": "bv10",
+                "distance": -4.229970558950157,
+                "velocity": 34.49469059797647,
+                "position": [
+                    306.3706342600204,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    306.3706342600204,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.6974080908280342
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 18.59349020147083,
+                "velocity": 37.313506431742624,
+                "position": [
+                    329.19409502044135,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    329.19409502044135,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.923810522633147
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv8",
+                "distance": 50.44487652381122,
+                "velocity": 24.012274607917448,
+                "position": [
+                    250.1557282951593,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    250.1557282951593,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 1.7170335283711324
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        }
+    },
+    "bv10": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv10",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "velocity": 35.246635706262495,
+                "road_id": "E2",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv12",
+                "distance": 21.0,
+                "velocity": 38.3512770447831,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv8",
+                "distance": 48.0,
+                "velocity": 24.395333059658697,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv10",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.9941511109484313
+                },
+                "position": [
+                    299.45472205951677,
+                    -4.8
+                ],
+                "position3D": [
+                    299.45472205951677,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 34.94722059516765,
+                "road_id": "E1",
+                "acceleration": -2.994151110948451
+            },
+            "Lead": {
+                "veh_id": "bv9",
+                "distance": -4.559077952050544,
+                "velocity": 28.95644107466256,
+                "position": [
+                    299.89564410746624,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    299.89564410746624,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.0902989072229516
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 17.295909779802386,
+                "velocity": 37.50631839319169,
+                "position": [
+                    321.75063183931917,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    321.75063183931917,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.35272436418317454
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv8",
+                "distance": 49.08427835065726,
+                "velocity": 24.104437088595283,
+                "position": [
+                    245.3704437088595,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    245.3704437088595,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.908959710634136
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv10",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -2.8278918810837372
+                },
+                "position": [
+                    302.92116520022273,
+                    -4.8
+                ],
+                "position3D": [
+                    302.92116520022273,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 34.664431407059276,
+                "road_id": "E1",
+                "acceleration": -2.827891881083744
+            },
+            "Lead": {
+                "veh_id": "bv12",
+                "distance": 21.627127740826936,
+                "velocity": 37.92155318946775,
+                "position": [
+                    329.5482929410497,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    329.5482929410497,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.3982303156128353
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 17.54157917704437,
+                "velocity": 37.12112537947931,
+                "position": [
+                    325.4627443772671,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    325.4627443772671,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.8519301371238157
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv9",
+                "distance": -4.837184531272598,
+                "velocity": 28.627056240290713,
+                "position": [
+                    302.75834973149534,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    302.75834973149534,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.293848343718473
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv10",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -1.6974080908280431
+                },
+                "position": [
+                    306.3706342600204,
+                    -4.8
+                ],
+                "position3D": [
+                    306.3706342600204,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 34.49469059797647,
+                "road_id": "E1",
+                "acceleration": -1.6974080908280342
+            },
+            "Lead": {
+                "veh_id": "bv12",
+                "distance": 21.932278284891837,
+                "velocity": 37.54619603862564,
+                "position": [
+                    333.3029125449122,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    333.3029125449122,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.753571508421132
+            },
+            "LeftLead": {
+                "veh_id": "bv11",
+                "distance": 17.823460760420986,
+                "velocity": 37.313506431742624,
+                "position": [
+                    329.19409502044135,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    329.19409502044135,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.923810522633147
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv9",
+                "distance": -4.229970558950157,
+                "velocity": 28.422550874752144,
+                "position": [
+                    305.6006048189705,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    305.6006048189705,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.0450536553856935
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        }
+    },
+    "bv11": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv11",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    179.44,
+                    -1.6
+                ],
+                "position3D": [
+                    179.44,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.54159082961001,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv13",
+                "distance": 32.0,
+                "velocity": 28.35904279253603,
+                "position": [
+                    179.44,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    179.44,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv9",
+                "distance": 16.0,
+                "velocity": 29.165470965384856,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            }
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv11",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.352724364183143
+                },
+                "position": [
+                    321.75063183931917,
+                    -1.6
+                ],
+                "position3D": [
+                    321.75063183931917,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.50631839319169,
+                "road_id": "E1",
+                "acceleration": -0.35272436418317454
+            },
+            "Lead": {
+                "veh_id": "bv13",
+                "distance": 31.075345692664428,
+                "velocity": 28.259775319835864,
+                "position": [
+                    357.8259775319836,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    357.8259775319836,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.9926747270016634
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv12",
+                "distance": -0.9944942172162996,
+                "velocity": 37.961376221029035,
+                "position": [
+                    325.75613762210287,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    325.75613762210287,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.8990082375406843
+            },
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv10",
+                "distance": 17.295909779802386,
+                "velocity": 34.94722059516765,
+                "position": [
+                    299.45472205951677,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    299.45472205951677,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.994151110948451
+            }
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv11",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.8519301371238237
+                },
+                "position": [
+                    325.4627443772671,
+                    -1.6
+                ],
+                "position3D": [
+                    325.4627443772671,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.12112537947931,
+                "road_id": "E1",
+                "acceleration": -3.8519301371238157
+            },
+            "Lead": {
+                "veh_id": "bv13",
+                "distance": 30.170152758103285,
+                "velocity": 28.069196033867836,
+                "position": [
+                    360.6328971353704,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    360.6328971353704,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -1.9057928596802753
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv12",
+                "distance": -0.9144514362174334,
+                "velocity": 37.92155318946775,
+                "position": [
+                    329.5482929410497,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    329.5482929410497,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.3982303156128353
+            },
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv10",
+                "distance": 17.54157917704437,
+                "velocity": 34.664431407059276,
+                "position": [
+                    302.92116520022273,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    302.92116520022273,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.827891881083744
+            }
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv11",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 1.9238105226331221
+                },
+                "position": [
+                    329.19409502044135,
+                    -1.6
+                ],
+                "position3D": [
+                    329.19409502044135,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 37.313506431742624,
+                "road_id": "E1",
+                "acceleration": 1.923810522633147
+            },
+            "Lead": {
+                "veh_id": "bv13",
+                "distance": 29.246154737412013,
+                "velocity": 28.073526224829944,
+                "position": [
+                    363.4402497578534,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    363.4402497578534,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.043301909621078494
+            },
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv12",
+                "distance": -0.8911824755291491,
+                "velocity": 37.54619603862564,
+                "position": [
+                    333.3029125449122,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    333.3029125449122,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.753571508421132
+            },
+            "Foll": null,
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv10",
+                "distance": 17.823460760420986,
+                "velocity": 34.49469059797647,
+                "position": [
+                    306.3706342600204,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    306.3706342600204,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.6974080908280342
+            }
+        }
+    },
+    "bv12": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv12",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "velocity": 38.3512770447831,
+                "road_id": "E2",
+                "acceleration": 0.0
+            },
+            "Lead": {
+                "veh_id": "bv14",
+                "distance": 30.0,
+                "velocity": 33.16802130197071,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv10",
+                "distance": 21.0,
+                "velocity": 35.246635706262495,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv12",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.8990082375407153
+                },
+                "position": [
+                    325.75613762210287,
+                    -4.8
+                ],
+                "position3D": [
+                    325.75613762210287,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 37.961376221029035,
+                "road_id": "E1",
+                "acceleration": -3.8990082375406843
+            },
+            "Lead": {
+                "veh_id": "bv14",
+                "distance": 29.525208136717822,
+                "velocity": 33.213457588207156,
+                "position": [
+                    360.2813457588207,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    360.2813457588207,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.454362862364448
+            },
+            "LeftLead": {
+                "veh_id": "bv13",
+                "distance": 27.069839909880727,
+                "velocity": 28.259775319835864,
+                "position": [
+                    357.8259775319836,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    357.8259775319836,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.9926747270016634
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv9",
+                "distance": 20.86049351463663,
+                "velocity": 28.95644107466256,
+                "position": [
+                    299.89564410746624,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    299.89564410746624,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.0902989072229516
+            },
+            "LeftFoll": {
+                "veh_id": "bv11",
+                "distance": -0.9944942172162996,
+                "velocity": 37.50631839319169,
+                "position": [
+                    321.75063183931917,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    321.75063183931917,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.35272436418317454
+            },
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv12",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.39823031561282285
+                },
+                "position": [
+                    329.5482929410497,
+                    -4.8
+                ],
+                "position3D": [
+                    329.5482929410497,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 37.92155318946775,
+                "road_id": "E1",
+                "acceleration": -0.3982303156128353
+            },
+            "Lead": {
+                "veh_id": "bv14",
+                "distance": 29.038928523192254,
+                "velocity": 33.058757054212194,
+                "position": [
+                    363.5872214642419,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    363.5872214642419,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.5470053399496209
+            },
+            "LeftLead": {
+                "veh_id": "bv13",
+                "distance": 26.08460419432072,
+                "velocity": 28.069196033867836,
+                "position": [
+                    360.6328971353704,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    360.6328971353704,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -1.9057928596802753
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv10",
+                "distance": 21.627127740826936,
+                "velocity": 34.664431407059276,
+                "position": [
+                    302.92116520022273,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    302.92116520022273,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -2.827891881083744
+            },
+            "LeftFoll": {
+                "veh_id": "bv11",
+                "distance": -0.9144514362174334,
+                "velocity": 37.12112537947931,
+                "position": [
+                    325.4627443772671,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    325.4627443772671,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.8519301371238157
+            },
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv12",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -3.7535715084211376
+                },
+                "position": [
+                    333.3029125449122,
+                    -4.8
+                ],
+                "position3D": [
+                    333.3029125449122,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 37.54619603862564,
+                "road_id": "E1",
+                "acceleration": -3.753571508421132
+            },
+            "Lead": {
+                "veh_id": "bv14",
+                "distance": 28.575638199234874,
+                "velocity": 32.913292799051746,
+                "position": [
+                    366.8785507441471,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    366.8785507441471,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.4546425516044792
+            },
+            "LeftLead": {
+                "veh_id": "bv13",
+                "distance": 25.137337212941162,
+                "velocity": 28.073526224829944,
+                "position": [
+                    363.4402497578534,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    363.4402497578534,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.043301909621078494
+            },
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv10",
+                "distance": 21.932278284891837,
+                "velocity": 34.49469059797647,
+                "position": [
+                    306.3706342600204,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    306.3706342600204,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.6974080908280342
+            },
+            "LeftFoll": {
+                "veh_id": "bv11",
+                "distance": -0.8911824755291491,
+                "velocity": 37.313506431742624,
+                "position": [
+                    329.19409502044135,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    329.19409502044135,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.923810522633147
+            },
+            "RightFoll": null
+        }
+    },
+    "bv13": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv13",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    179.44,
+                    -1.6
+                ],
+                "position3D": [
+                    179.44,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 28.35904279253603,
+                "road_id": "E0",
+                "acceleration": 0.0
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv11",
+                "distance": 32.0,
+                "velocity": 37.54159082961001,
+                "position": [
+                    179.44,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    179.44,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv9",
+                "distance": 53.0,
+                "velocity": 29.165470965384856,
+                "position": [
+                    179.44,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    179.44,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.0
+            }
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv13",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -0.9926747270016758
+                },
+                "position": [
+                    357.8259775319836,
+                    -1.6
+                ],
+                "position3D": [
+                    357.8259775319836,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 28.259775319835864,
+                "road_id": "E1",
+                "acceleration": -0.9926747270016634
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv14",
+                "distance": -2.544631773162905,
+                "velocity": 33.213457588207156,
+                "position": [
+                    360.2813457588207,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    360.2813457588207,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": 0.454362862364448
+            },
+            "Foll": {
+                "veh_id": "bv11",
+                "distance": 31.075345692664428,
+                "velocity": 37.50631839319169,
+                "position": [
+                    321.75063183931917,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    321.75063183931917,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.35272436418317454
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv12",
+                "distance": 27.069839909880727,
+                "velocity": 37.961376221029035,
+                "position": [
+                    325.75613762210287,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    325.75613762210287,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.8990082375406843
+            }
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv13",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -1.9057928596802878
+                },
+                "position": [
+                    360.6328971353704,
+                    -1.6
+                ],
+                "position3D": [
+                    360.6328971353704,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 28.069196033867836,
+                "road_id": "E1",
+                "acceleration": -1.9057928596802753
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv14",
+                "distance": -2.045675671128464,
+                "velocity": 33.058757054212194,
+                "position": [
+                    363.5872214642419,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    363.5872214642419,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.5470053399496209
+            },
+            "Foll": {
+                "veh_id": "bv11",
+                "distance": 30.170152758103285,
+                "velocity": 37.12112537947931,
+                "position": [
+                    325.4627443772671,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    325.4627443772671,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -3.8519301371238157
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv12",
+                "distance": 26.08460419432072,
+                "velocity": 37.92155318946775,
+                "position": [
+                    329.5482929410497,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    329.5482929410497,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.3982303156128353
+            }
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv13",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": true,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 1,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 0.04330190962106961
+                },
+                "position": [
+                    363.4402497578534,
+                    -1.6
+                ],
+                "position3D": [
+                    363.4402497578534,
+                    -1.6,
+                    0.0
+                ],
+                "velocity": 28.073526224829944,
+                "road_id": "E1",
+                "acceleration": 0.043301909621078494
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": {
+                "veh_id": "bv14",
+                "distance": -1.5616990137062885,
+                "velocity": 32.913292799051746,
+                "position": [
+                    366.8785507441471,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    366.8785507441471,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -1.4546425516044792
+            },
+            "Foll": {
+                "veh_id": "bv11",
+                "distance": 29.246154737412013,
+                "velocity": 37.313506431742624,
+                "position": [
+                    329.19409502044135,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    329.19409502044135,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 1.923810522633147
+            },
+            "LeftFoll": null,
+            "RightFoll": {
+                "veh_id": "bv12",
+                "distance": 25.137337212941162,
+                "velocity": 37.54619603862564,
+                "position": [
+                    333.3029125449122,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    333.3029125449122,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.753571508421132
+            }
+        }
+    },
+    "bv14": {
+        "0": {
+            "Ego": {
+                "veh_id": "bv14",
+                "could_drive_adjacent_lane_left": false,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": null,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "velocity": 33.16802130197071,
+                "road_id": "E2",
+                "acceleration": 0.0
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv12",
+                "distance": 30.0,
+                "velocity": 38.3512770447831,
+                "position": [
+                    180.29,
+                    -9.33
+                ],
+                "heading": 68.86875354466527,
+                "lane_index": 0,
+                "position3D": [
+                    180.29,
+                    -9.33,
+                    0.0
+                ],
+                "acceleration": 0.0
+            },
+            "LeftFoll": null,
+            "RightFoll": null
+        },
+        "0.1": {
+            "Ego": {
+                "veh_id": "bv14",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": 0.45436286236448087
+                },
+                "position": [
+                    360.2813457588207,
+                    -4.8
+                ],
+                "position3D": [
+                    360.2813457588207,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 33.213457588207156,
+                "road_id": "E1",
+                "acceleration": 0.454362862364448
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv12",
+                "distance": 29.525208136717822,
+                "velocity": 37.961376221029035,
+                "position": [
+                    325.75613762210287,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    325.75613762210287,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.8990082375406843
+            },
+            "LeftFoll": {
+                "veh_id": "bv13",
+                "distance": -2.544631773162905,
+                "velocity": 28.259775319835864,
+                "position": [
+                    357.8259775319836,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    357.8259775319836,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -0.9926747270016634
+            },
+            "RightFoll": null
+        },
+        "0.2": {
+            "Ego": {
+                "veh_id": "bv14",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -1.5470053399496395
+                },
+                "position": [
+                    363.5872214642419,
+                    -4.8
+                ],
+                "position3D": [
+                    363.5872214642419,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 33.058757054212194,
+                "road_id": "E1",
+                "acceleration": -1.5470053399496209
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv12",
+                "distance": 29.038928523192254,
+                "velocity": 37.92155318946775,
+                "position": [
+                    329.5482929410497,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    329.5482929410497,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -0.3982303156128353
+            },
+            "LeftFoll": {
+                "veh_id": "bv13",
+                "distance": -2.045675671128464,
+                "velocity": 28.069196033867836,
+                "position": [
+                    360.6328971353704,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    360.6328971353704,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": -1.9057928596802753
+            },
+            "RightFoll": null
+        },
+        "0.30000000000000004": {
+            "Ego": {
+                "veh_id": "bv14",
+                "could_drive_adjacent_lane_left": true,
+                "could_drive_adjacent_lane_right": false,
+                "distance": 0.0,
+                "heading": 90.0,
+                "lane_index": 0,
+                "lateral_speed": 0.0,
+                "lateral_offset": 0.0,
+                "prev_action": {
+                    "lateral": "central",
+                    "longitudinal": -1.4546425516045014
+                },
+                "position": [
+                    366.8785507441471,
+                    -4.8
+                ],
+                "position3D": [
+                    366.8785507441471,
+                    -4.8,
+                    0.0
+                ],
+                "velocity": 32.913292799051746,
+                "road_id": "E1",
+                "acceleration": -1.4546425516044792
+            },
+            "Lead": null,
+            "LeftLead": null,
+            "RightLead": null,
+            "Foll": {
+                "veh_id": "bv12",
+                "distance": 28.575638199234874,
+                "velocity": 37.54619603862564,
+                "position": [
+                    333.3029125449122,
+                    -4.8
+                ],
+                "heading": 90.0,
+                "lane_index": 0,
+                "position3D": [
+                    333.3029125449122,
+                    -4.8,
+                    0.0
+                ],
+                "acceleration": -3.753571508421132
+            },
+            "LeftFoll": {
+                "veh_id": "bv13",
+                "distance": -1.5616990137062885,
+                "velocity": 28.073526224829944,
+                "position": [
+                    363.4402497578534,
+                    -1.6
+                ],
+                "heading": 90.0,
+                "lane_index": 1,
+                "position3D": [
+                    363.4402497578534,
+                    -1.6,
+                    0.0
+                ],
+                "acceleration": 0.043301909621078494
+            },
+            "RightFoll": null
+        }
+    },
+    "collision_ids": [
+        "CAV",
+        "bv4"
+    ]
+}

@@ -1,0 +1,12 @@
+experiment_name: "400m_merge_global_info_struc_Agent_Training"
+#root_folder: "./data_analysis/behavior_policy_data/"
+#data_folders: ["Experiment-2lane_400m_behavior_policy_testing_2023-09-03"]
+root_folder: "E:\\pycharmcode\\sumo_data_generation\\"
+# data_folders: ["Experiment-sumo_data_gen_2024-06-22"]
+data_folders: ["merge_400_highway"]
+local_dir: "E:\\pycharmcode\\sumo_data_generation\\"
+data_folder_weights: [1]
+#local_dir: "./ray_results/"
+# num_workers: 1
+num_workers: 5
+clip_reward_threshold: 200

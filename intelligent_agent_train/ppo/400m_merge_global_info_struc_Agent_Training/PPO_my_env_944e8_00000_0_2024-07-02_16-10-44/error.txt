@@ -1,0 +1,118 @@
+Failure # 1 (occurred at 2024-07-02_16-10-50)
+Traceback (most recent call last):
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\trial_runner.py", line 886, in _process_trial
+    results = self.trial_executor.fetch_result(trial)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\ray_trial_executor.py", line 675, in fetch_result
+    result = ray.get(trial_future[0], timeout=DEFAULT_GET_TIMEOUT)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\worker.py", line 1763, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(RuntimeError): [36mray::PPOTrainer.train()[39m (pid=6204, ip=127.0.0.1, repr=PPOTrainer)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 1044, in step_attempt
+    step_results = self._exec_plan_or_training_iteration_fn()
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 2032, in _exec_plan_or_training_iteration_fn
+    results = next(self.train_exec_impl)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 756, in __next__
+    return next(self.built_iterator)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 843, in apply_filter
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 843, in apply_filter
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  [Previous line repeated 1 more time]
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 876, in apply_flatten
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 783, in apply_foreach
+    for item in it:
+  [Previous line repeated 1 more time]
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 471, in base_iterator
+    yield ray.get(futures, timeout=timeout)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\worker.py", line 1763, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(ValueError): [36mray::RolloutWorker.par_iter_next()[39m (pid=7612, ip=127.0.0.1, repr=<ray.rllib.evaluation.rollout_worker.RolloutWorker object at 0x0000023CCD7A7910>)
+  File "python\ray\_raylet.pyx", line 640, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 644, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 593, in ray._raylet.execute_task.function_executor
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\function_manager.py", line 648, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\iter.py", line 1151, in par_iter_next
+    return next(self.local_it)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\rollout_worker.py", line 380, in gen_rollouts
+    yield self.sample()
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\rollout_worker.py", line 759, in sample
+    batches = [self.input_reader.next()]
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\sampler.py", line 104, in next
+    batches = [self.get_data()]
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\sampler.py", line 266, in get_data
+    item = next(self._env_runner)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\sampler.py", line 634, in _env_runner
+    _process_observations(
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\evaluation\sampler.py", line 852, in _process_observations
+    prep_obs = preprocessor.transform(raw_obs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\models\preprocessors.py", line 195, in transform
+    self.check_shape(observation)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\models\preprocessors.py", line 72, in check_shape
+    raise ValueError(
+ValueError: ('Observation ({} dtype={}) outside given space ({})!', array([ 23.264256 ,   1.8368307,  90.       ,   0.       , 305.50305  ,
+         0.       ,  35.704857 ,  -1.196751 ,  90.       ,  37.92038  ,
+       348.41876  ,   0.       ,  34.66982  ,  -1.1415881,  82.36437  ,
+        85.29354  , 395.76212  ,   1.       ,   0.       ,   0.       ,
+         0.       ,   0.       ,   0.       ,   0.       ,  24.856346 ,
+         0.       ,  90.       ,  13.94338  , 286.56216  ,   0.       ,
+        31.574991 ,  -1.3310364,  90.       ,  27.58276  , 272.88727  ,
+         1.       ,   0.       ,   0.       ,   0.       ,   0.       ,
+         0.       ,   0.       ], dtype=float32), dtype('float32'), Box([-200. -200. -200. -200. -200. -200. -200. -200. -200. -200. -200. -200.
+ -200. -200. -200. -200. -200. -200. -200. -200. -200. -200. -200. -200.
+ -200. -200. -200. -200. -200. -200. -200. -200. -200. -200. -200. -200.
+ -200. -200. -200. -200. -200. -200.], [200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200.
+ 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200.
+ 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200.], (42,), float32))
+
+During handling of the above exception, another exception occurred:
+
+[36mray::PPOTrainer.train()[39m (pid=6204, ip=127.0.0.1, repr=PPOTrainer)
+  File "python\ray\_raylet.pyx", line 633, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 674, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 640, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 644, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 593, in ray._raylet.execute_task.function_executor
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\_private\function_manager.py", line 648, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\tune\trainable.py", line 319, in train
+    result = self.step()
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 972, in step
+    self.try_recover_from_step_attempt()
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\util\tracing\tracing_helper.py", line 451, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "C:\Users\28420\AppData\Roaming\Python\Python38\site-packages\ray\rllib\agents\trainer.py", line 2434, in try_recover_from_step_attempt
+    raise RuntimeError(
+RuntimeError: Not enough healthy workers remain to continue.
+
